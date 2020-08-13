@@ -1,0 +1,233 @@
+html,body{
+	margin: 0;
+	background-color: #c0c0c0;
+}
+body{
+	margin: 1%;
+	}
+header{
+	
+	background: #808080 url("C:/Users/user/Desktop/web designing comp/images/ieeebg.png") no-repeat right;
+	background-size: 25%;
+	padding: 1% 1% 1% 1%;
+	height: 16%;
+}
+header h1,h2{
+	font-variant: small-caps;
+	/* font-size:200%; */
+}
+h1,h2{
+	font-size: 180%;
+	text-align: center;	
+	}
+header img{
+	padding-right: 2%;
+	float: left;
+	width: 8%;
+}
+.nav{
+	background: #808080;
+	text-align: right;
+	margin-top: 1%;
+	line-height: 70px;
+}
+.menu{
+	margin: 0;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+.menu h2{
+	float: left;
+	padding-left: 40px;
+	line-height: 20px;
+	font-size: 30px;
+}
+.menu a{
+	clear: right;
+	text-decoration: none;
+	color: navy;
+	margin: 0 10px;
+	line-height: 70px;
+}
+.menu a:hover{
+	color: skyblue;
+}
+p{
+	font-family: Serif;
+}
+.events{
+	background: #808080 url("C:/Users/user/Desktop/web designing comp/images/events.jpg") no-repeat center;
+	background-size: 100%;
+	padding: 1% 0 7% 0;
+}
+.events h2{ 
+	background-color: #ebc034;
+	width: 80%;
+}
+.events ul{
+	margin-bottom:0.5%;
+	padding-left : 27%;
+}
+.events ul li{
+	padding: 0.5%;
+	color: #000000;
+	font-variant: small-caps;
+	border-right: 4px solid #000000;
+	border-bottom: 4px solid #000000;
+	background-color: #ebc034;
+	opacity: 0.7;
+	width: 60%;
+	list-style: none;
+
+}
+.events ul li:hover{
+	opacity: 0.75;
+}
+.events ul li:focus{
+	opacity: 0.75;
+}
+.events ul p{
+	opacity: 1.0;
+	background-color: #ebc034;
+	padding: 1%;
+	max-width: 59%;
+	color: #000000;
+	margin-bottom: 1%;	
+}
+.events ul p img{
+	padding-right:1%; 
+	width: 100px;
+	-webkit-transition: width 1s linear 0s;
+	-moz-transition: width 1s linear 0s;
+	transition: width 1s linear 0s;
+}
+.events ul p img:hover{
+	width: 300px;
+}
+.events ul p img:focus{
+	width: 300px;
+}
+.events ul li a{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	
+}
+label{
+	margin: 0 40px 0 0;
+	font-size: 30px;
+	line-height: 70px;
+	display: none;
+	color: black;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	font-weight: bold;
+	word-spacing: 2em;
+
+}
+label,toggle{
+	padding-right: 20px;
+}
+#toggle{
+	display: none;
+}
+.footer{
+			background-color: #808080;
+			width: 100%;
+			border-bottom: 10px solid white;
+
+		}
+		.main{
+			color: white;
+			display: flex;
+			padding: 10px 20px;
+
+		}
+		.left,.centre,.right{
+			width: 30%;
+			
+		}
+		.main h2{
+			text-align: center;
+		}
+
+.execom li{
+	padding-bottom: 0.5%;
+	display: inline-block;
+	width: 33%;
+}
+.execom li img{
+	width: 50px;
+}
+.ach{
+	background: url("C:/Users/user/Desktop/web designing comp/images/ach.jpeg") no-repeat center;
+	background-size: 100% 100%;
+	background: cover;
+	padding: 1% 0 2% 0;
+}
+.ach ul{
+	margin-left: 25%;
+	width: 50%;
+}
+.ach li{
+	font-size: 24px;
+	color: #000000;
+}
+.right a{
+	text-decoration: none;
+	color: blue;
+}
+
+
+@media only screen and (max-width: 500px){
+	header{
+	background: #808080 url("C:/Users/user/Desktop/web designing comp/images/ieeebg.png") no-repeat right ;
+	background-size: 20%;
+	padding: 1% 1% 1% 1%;
+	height: 10%;
+}
+	header h1,h2{
+		font-size: 150%;
+	}
+	label{
+		display: block;
+		cursor: pointer;
+	}
+	.menu{
+		text-align: center;
+		width: 100%;
+		display: none;
+		border :none;
+
+	}
+	.menu a{
+		display: block;
+		border-bottom: 1px navy;
+		margin: 0;
+		color: black;
+	}
+	.menu h2{
+		display: none;
+	}
+	#toggle:checked + .menu{
+		display: block;
+		
+
+	}
+	.ach li{
+		margin-left: 0;
+	}
+}
+.footer .main{
+	display: block;
+}
+/* history */
+.hist{
+	padding: 2% 7% 2% 7%;
+	font-size: 120%;
+	font-family: serif;
+}
+.hist h2{ 
+	background-color: #ebc034;
+	width: 80%;
+}
